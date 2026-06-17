@@ -9,23 +9,29 @@
     <form action = "index.php" method = "POST" enctype = "multipart/form-data">
         <label for = "username">username:</label>
         <input type = "text" id = "username" placeholder = "simmi" minlength = "6" maxlength = "20" required>
+        <br>
         <label for = "password">password:</label>
         
         
         <input type = "password" id = "password" placeholder = "••••••••" minlength = "8" maxlength = "100" required>
+        <br>
         
         <label for = "email">email:</label>
         <input type = "email" id = "email" placeholder = "simmi@example.com" required>
+        <br>
         
 
         <label for = "phone">phone:</label>
         <input type = "tel" id = "phone" placeholder = "123-456-7890" pattern ="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
 
         <label for = "bday">birthday:</label>
         <input type = "date" id = "bday" required>
+        <br>
 
        <label for = "quantity"> quantity:</label>
         <input type = "number" id = "quantity" min = "1" max = "10"  value = "1" required>
+        <br>
 
         <label for = "Mr.">Mr.</label>
         <input type = "radio" id = "Mr." value = "Mr." name = "title" required>
@@ -35,6 +41,7 @@
         <input type = "radio" id = "Phd." value = 'Phd.'name = "title" required>
         <label for = "Dr.">Dr.</label>
         <input type = "radio" id = "Dr." value = 'Dr.' name = "title" required>
+        <br>
 
         <label for = "payment">Payment Method:</label>
         <select id = "payment" name = "payment" required>
@@ -44,17 +51,22 @@
             <option value = "visa">Visa</option>
             <option value = "mastercard">MasterCard</option>
         </select>
+        <br>
 
         <label for = "subscribe">Subscribe to newsletter:</label>
         <input type = "checkbox" id = "subscribe" name = "subscribe">
+        <br>
 
         <label for = "comment">Comment:</label>
         <textarea id = "comment" rows = "4" cols = "50"></textarea>
+        <br>
 
         <label for = "file">file:</label>
         <input type = "file" id = "file" accept = ".jpg, .jpeg, .png, .pdf" required>
+        <br>
 
-        <input type = "reset"><br>
+        <input type = "reset">
+        <br>
         <input type = "submit">
     </form>
 </body>
