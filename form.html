@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "index.php" method = "POST" enctype = "multipart/form-data">
+        <label for = "username">username:</label>
+        <input type = "text" id = "username" placeholder = "simmi" minlength = "6" maxlength = "20" required>
+        <label for = "password">password:</label>
+        
+        
+        <input type = "password" id = "password" placeholder = "••••••••" minlength = "8" maxlength = "100" required>
+        
+        <label for = "email">email:</label>
+        <input type = "email" id = "email" placeholder = "simmi@example.com" required>
+        
+
+        <label for = "phone">phone:</label>
+        <input type = "tel" id = "phone" placeholder = "123-456-7890" pattern ="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+        <label for = "bday">birthday:</label>
+        <input type = "date" id = "bday" required>
+
+       <label for = "quantity"> quantity:</label>
+        <input type = "number" id = "quantity" min = "1" max = "10"  value = "1" required>
+
+        <label for = "Mr.">Mr.</label>
+        <input type = "radio" id = "Mr." value = "Mr." name = "title" required>
+         <label for = "Ms.">Ms.</label>
+         <input type = "radio" id = "Ms." value = 'Ms.' name = "title" required>
+          <label for = "Phd.">Phd.</label>
+        <input type = "radio" id = "Phd." value = 'Phd.'name = "title" required>
+        <label for = "Dr.">Dr.</label>
+        <input type = "radio" id = "Dr." value = 'Dr.' name = "title" required>
+
+        <label for = "payment">Payment Method:</label>
+        <select id = "payment" name = "payment" required>
+            <option value = "credit">Credit Card</option>
+            <option value = "debit">Debit Card</option>
+            <option value = "paypal">PayPal</option>
+            <option value = "visa">Visa</option>
+            <option value = "mastercard">MasterCard</option>
+        </select>
+
+        <label for = "subscribe">Subscribe to newsletter:</label>
+        <input type = "checkbox" id = "subscribe" name = "subscribe">
+
+        <label for = "comment">Comment:</label>
+        <textarea id = "comment" rows = "4" cols = "50"></textarea>
+
+        <label for = "file">file:</label>
+        <input type = "file" id = "file" accept = ".jpg, .jpeg, .png, .pdf" required>
+
+        <input type = "reset"><br>
+        <input type = "submit">
+    </form>
+</body>
+</html>
