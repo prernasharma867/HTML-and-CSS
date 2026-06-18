@@ -1,0 +1,10 @@
+h1{
+    text-shadow: 2px 2px 4px #e80a0a, -2px -4px 8px #8ff501, 6px 6px 12px #e80a0a;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: #8412a7;
+    box-shadow: 10px 10px 20px #e80a0a, -10px -10px 20px #8ff501;
+
+}
