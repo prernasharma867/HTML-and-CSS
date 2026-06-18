@@ -1,0 +1,21 @@
+body{
+    border: 2px solid white;
+    background-color: black;
+    
+}
+
+
+#ball1{
+    float: left;
+    margin-right: 20px;
+
+}
+#ball2{
+    float: right;
+    margin-right: 20px;
+}
+
+
+p{
+    color: white;
+}
